@@ -1,0 +1,270 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/947343832945151821/5D136F7CD26548C4D6CA47304A4C5FB3F975BF8B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+}
+
+
+#parent{
+
+    background-color: rgb(225, 207, 207);
+    border:10px solid rgb(216, 241, 157);
+    height:150px;
+    width:400px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:10px 10px coral;
+    font-style:italic;
+    margin:auto;
+    padding-top:10px;
+    margin-top:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#parent1{
+
+    border:5px solid bisque;
+    margin-top:30px;
+    height:600px;
+}
+
+#child1 {
+
+border:2px solid black;
+width: 300px;
+text-align: center;
+background-color: beige;
+margin-left:50px;
+margin-top:30px;
+float:left;
+border-radius: 15px;
+height:230px;
+text-align: center;
+padding-top:10px;
+border-radius: 10px;
+box-shadow: 10px 10px chocolate;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-bottom:5px;
+position:relative;
+font-size: 15px;
+
+
+}
+
+#ch2{
+text-align:center;
+
+}
+#child2{
+
+    border:2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: beige;
+    margin-left:50px;
+    margin-top:30px;
+    float:right;
+    border-radius: 15px;
+    height:230px;
+    text-align: center;
+    padding-top:10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px chocolate;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom:5px;
+    position:relative;
+    margin-right:30px;
+}
+
+#ch3{
+
+    border:10px solid rgb(197, 193, 193);
+    border-radius:15px;
+    opacity: 0.2;
+}
+
+#ch3:hover
+ {
+    opacity: 1;
+ }
+
+
+
+
+
+
+
+#child3{
+    border:2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: beige;
+    margin-left:50px;
+    margin-top:300px;
+    float:left;
+    border-radius: 15px;
+    height:230px;
+    text-align: center;
+    padding-top:10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px chocolate;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom:5px;
+    position:absolute;
+
+
+
+}
+
+#child4{
+    border:2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: beige;
+    margin-left:350px;
+    margin-top:80px;
+    float:right;
+    border-radius: 15px;
+    height:230px;
+    text-align: center;
+    padding-top:10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px chocolate;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom:5px;
+    position:relative;
+    margin-right:30px;
+}
+
+
+#ch7{
+
+    background-color: aliceblue;
+    border:2px solid grey;
+    width:auto;
+    padding:10px;
+    margin:5px;
+    margin-top:3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#ch8{
+
+    background-color: tomato;
+    width:100px;
+    padding-bottom:5px;
+    font-size:18px;
+    text-align:center;
+    margin:auto;
+    border-radius:5px;
+    margin-top:20px;
+    
+}
+
+#parent2{
+width:400px;
+height:50px;
+background-color: gold;
+border:2px solid red;
+border-radius:30px;
+left:410px;
+top:500px;
+position:fixed;
+text-align:center;
+ display:flex;
+justify-content: space-between; 
+padding-top:5px;
+
+
+}
+
+.offers{
+/* 
+float:left; */
+padding-left:80px;
+}
+
+.discount{
+
+    /* float:right; */
+    padding-right:80px;
+    
+    
+}
+/* p{
+    display:inline-block;
+}  */
+ 
+#parent3{
+    border:  5px solid beige;
+    background-color: burlywood;
+    width: 60%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#title{
+    text-align: center;
+    text-shadow: 1px 1px blue;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.box1{
+    width: 40%;
+    height: 40vh;
+    border: 1px solid rgba(0, 0, 0, 0.018);
+    background-color: rgb(196, 211, 224);
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    font-style: italic;
+    top: 10px;
+    text-shadow: 0.8px 0.8px white;
+    box-shadow: 10px 10px rgb(235, 162, 52);
+    background-image: url("https://media.tenor.com/SHYViRuithAAAAAM/bmw-m5.gif");
+}
+
+
+.box2{
+    border: 1px solid black;
+    background-color: white;
+    width: 40%;
+    height: 40vh;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.8px 0.8px rgb(1, 1, 15);
+    box-shadow: 10px 10px rgb(235, 162, 52);
+    background-image: url("https://64.media.tumblr.com/96505dc1f212a3309abbd422b737699b/tumblr_og0vk8mDWG1r2wb1po1_500.gif");
+}
+
+.box3{
+    border: 1px solid black;
+    background-color: white;
+    width: 95%;
+    height: 30vh;
+    clear: both;
+    margin-right: 10px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.8px 0.8px rgb(1, 1, 19);
+    box-shadow: 10px 10px rgb(235, 162, 52);
+    background-image: url("https://media1.giphy.com/media/ifceSwE5rXLjO9hzLx/giphy.gif?cid=6c09b952rwckl4e0jr0yplxv7r2pig0mtm4t52k9cviklpde&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+
+ 
